@@ -5,6 +5,8 @@ namespace Terpz710\HelloWorld;
 use Pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
-    $this->getLogger()->info("Hello World!");
+
+    public function onEnable(): void {
+        $this->getLogger()->info("Hello World!");
     }
 }
