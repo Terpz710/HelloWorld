@@ -1,0 +1,5 @@
+name: HelloWorld
+version: 1.0.0
+api: [5.0.0]
+main: Terpz710\HelloWorld\Main
+Description: A plugin that uses Pocketmines-MP API to send Hello World! through console.
